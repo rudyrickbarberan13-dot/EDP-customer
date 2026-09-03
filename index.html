@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>MINI STORE CHECKOUT SYSTEM</title>
 </head>
 
@@ -17,7 +18,12 @@
     <br><br>
 
     <label for="productCount">Number of Products</label>
-    <input type="number" id="productCount" min="1" placeholder="Enter number of products">
+    <input
+        type="number"
+        id="productCount"
+        min="1"
+        placeholder="Enter number of products"
+    >
 
     <br><br>
 
@@ -27,18 +33,25 @@
 
     <label for="deliveryOption">Delivery Option</label>
     <select id="deliveryOption">
+
         <option value="1">Store Pickup</option>
+
         <option value="2">Standard Delivery</option>
+
         <option value="3">Express Delivery</option>
+
     </select>
 
     <br><br>
 
     <button id="calculateBtn">Calculate Order</button>
 
+    <br><br>
+
     <div id="validationMessage"></div>
 
     <div id="orderSummary"></div>
+
 
     <script src="script.js"></script>
 
